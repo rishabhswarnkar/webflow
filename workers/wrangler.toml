@@ -1,0 +1,11 @@
+name = "webflow-app-generator-api"
+main = "api.ts"
+compatibility_date = "2024-01-01"
+
+[vars]
+# Add your environment variables here
+
+[[d1_databases]]
+binding = "DB"
+database_name = "webflow-app-generator"
+database_id = "your-database-id" 

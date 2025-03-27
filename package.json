@@ -1,0 +1,25 @@
+{
+  "name": "webflow-db-evaluation",
+  "version": "1.0.0",
+  "description": "Database evaluation for Webflow App Generator",
+  "main": "dist/scripts/benchmark.js",
+  "scripts": {
+    "build": "tsc",
+    "benchmark": "ts-node scripts/benchmark.ts",
+    "generate-schema": "ts-node scripts/schema-generator.ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.7.2",
+    "@supabase/supabase-js": "^2.49.3",
+    "@types/jest": "^29.5.11",
+    "@types/node": "^20.10.5",
+    "dotenv": "^16.4.7",
+    "groq-sdk": "^0.3.3",
+    "jest": "^29.7.0",
+    "mongodb": "^6.15.0",
+    "openai": "^4.24.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
